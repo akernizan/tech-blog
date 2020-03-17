@@ -27,6 +27,7 @@
     padding: 0.5em;
     color: inherit;
     text-decoration: none;
+    font-size: 1.25rem;
 
     @media (hover: hover) {
       @nest &:hover {
@@ -58,6 +59,7 @@
 
 .nav {
   display: none;
+        font-size: 1.25rem;
 
   @nest & ul {
     margin: 0;

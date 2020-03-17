@@ -25,6 +25,8 @@
   position: relative;
   padding-bottom: 66.666%;
   background: var(--color-very-light-gray);
+  border: 2px solid var(--color-very-light-gray);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
 
   @nest & img {
     position: absolute;
@@ -67,5 +69,5 @@
 .date {
   font-size: var(--font-small-size);
   line-height: var(--font-small-line-height);
-  color: var(--color-gray);
+  color: var(--color-black);
 }
