@@ -22,7 +22,7 @@ const Header = ({onHideNav, onShowNav, showNav, siteTitle}) => (
             <Link to='/archive/'>Archive</Link>
           </li>
           <li>
-            <a href="https://www.akosuakernizan.com/">Back Home</a>
+            <a href="https://www.akosuakernizan.com/contact">Back Home</a>
           </li>
         </ul>
       </nav>
