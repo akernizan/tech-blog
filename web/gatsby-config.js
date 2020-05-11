@@ -19,6 +19,15 @@ module.exports = {
         watchMode: !isProd,
         overlayDrafts: !isProd
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        icon: `src/images/pineapple.png`, // This path is relative to the root of the site.
+      },
+    },
   ]
 }
