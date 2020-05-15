@@ -1,6 +1,7 @@
 import React from 'react'
 import Figure from './Figure'
 import SyntaxHighlighter from 'react-syntax-highlighter';
+import { hopscotch } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 const serializers = {
   types: {
@@ -12,7 +13,7 @@ const serializers = {
         return null;
       }
 
-      return <SyntaxHighlighter language={language || 'text'}>{code}</SyntaxHighlighter>
+      return <SyntaxHighlighter language={language || 'text'} style={hopscotch}>{code}</SyntaxHighlighter>
     }
 
 
