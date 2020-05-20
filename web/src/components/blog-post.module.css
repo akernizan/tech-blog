@@ -10,7 +10,6 @@
 .mainImage {
   display: block;
   position: relative;
-  background: var(--color-very-light-gray);
   padding-bottom: calc(6 / 16 * 100%);
 
   @nest & img {
