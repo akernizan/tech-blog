@@ -19,7 +19,7 @@ const Header = ({onHideNav, onShowNav, showNav, siteTitle}) => (
       <nav className={cn(styles.nav, showNav && styles.showNav)}>
         <ul>
           <li>
-            <Link to='/archive/'>Archive</Link>
+            <Link to='/all-posts/'>All Posts</Link>
           </li>
           <li>
             <a href="https://www.akosuakernizan.com/contact">Akosua's Website</a>

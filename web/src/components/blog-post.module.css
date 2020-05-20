@@ -11,6 +11,7 @@
   display: block;
   position: relative;
   padding-bottom: calc(6 / 16 * 100%);
+  box-shadow: 0 4px 2px -2px var(--color-very-light-gray);
 
   @nest & img {
     display: block;
