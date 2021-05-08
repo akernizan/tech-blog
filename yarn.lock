@@ -2,6 +2,12 @@
 # yarn lockfile v1
 
 
+"@babel/runtime@^7.12.5":
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.0.tgz#46794bc20b612c5f75e62dd071e24dfd95f1cbe6"
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@^7.9.6":
   version "7.9.6"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.9.6.tgz#a9102eb5cadedf3f31d08a9ecf294af7827ea29f"
@@ -1294,10 +1300,6 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@~2.20.3:
-  version "2.20.3"
-  resolved "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
-
 compare-func@^1.3.1:
   version "1.3.2"
   resolved "https://registry.npmjs.org/compare-func/-/compare-func-1.3.2.tgz#99dd0ba457e1f9bc722b12c08ec33eeab31fa648"
@@ -1955,6 +1957,13 @@ gatsby-core-utils@^1.3.2:
     proper-lockfile "^4.1.1"
     xdg-basedir "^4.0.0"
 
+gatsby-plugin-google-analytics@^2.3.2:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.11.0.tgz#8d74bd3c100706f03bbccf7b130a758fce9994ad"
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    minimatch "3.0.4"
+
 gatsby-plugin-manifest@^2.4.2:
   version "2.4.8"
   resolved "https://registry.npmjs.org/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.8.tgz#c6834829a983ba423e7f8befce181bc0348703ff"
@@ -2112,8 +2121,8 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
 
 handlebars@^4.4.0:
-  version "4.7.6"
-  resolved "https://registry.npmjs.org/handlebars/-/handlebars-4.7.6.tgz#d4c05c1baf90e9945f77aa68a7a219aa4a7df74e"
+  version "4.7.7"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.7.tgz#9ce33416aad02dbd6c8fafa8240d5d98004945a1"
   dependencies:
     minimist "^1.2.5"
     neo-async "^2.6.0"
@@ -2860,9 +2869,9 @@ mimic-response@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/mimic-response/-/mimic-response-3.1.0.tgz#2d1d59af9c1b129815accc2c46a022a5ce1fa3c9"
 
-minimatch@^3.0.4:
+minimatch@3.0.4, minimatch@^3.0.4:
   version "3.0.4"
-  resolved "https://registry.npmjs.org/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   dependencies:
     brace-expansion "^1.1.7"
 
@@ -3014,8 +3023,8 @@ napi-build-utils@^1.0.1:
   resolved "https://registry.npmjs.org/napi-build-utils/-/napi-build-utils-1.0.2.tgz#b1fddc0b2c46e380a0b7a76f984dd47c41a13806"
 
 neo-async@^2.6.0:
-  version "2.6.1"
-  resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
 
 nice-try@^1.0.4:
   version "1.0.5"
@@ -3954,7 +3963,7 @@ source-map@^0.5.6:
 
 source-map@^0.6.1:
   version "0.6.1"
-  resolved "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
 spdx-correct@^3.0.0:
   version "3.1.0"
@@ -4335,10 +4344,8 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
 uglify-js@^3.1.4:
-  version "3.9.2"
-  resolved "https://registry.npmjs.org/uglify-js/-/uglify-js-3.9.2.tgz#012b74fb6a2e440d9ba1f79110a479d3b1f2d48d"
-  dependencies:
-    commander "~2.20.3"
+  version "3.13.5"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.13.5.tgz#5d71d6dbba64cf441f32929b1efce7365bb4f113"
 
 uid-number@0.0.6:
   version "0.0.6"
@@ -4497,7 +4504,7 @@ windows-release@^3.1.0:
 
 wordwrap@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npmjs.org/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
+  resolved "https://registry.yarnpkg.com/wordwrap/-/wordwrap-1.0.0.tgz#27584810891456a4171c8d0226441ade90cbcaeb"
 
 wrap-ansi@^5.1.0:
   version "5.1.0"
